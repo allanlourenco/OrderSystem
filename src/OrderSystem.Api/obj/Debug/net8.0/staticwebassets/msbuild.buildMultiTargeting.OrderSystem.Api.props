@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/OrderSystem.Api.props" />
-</Project>
