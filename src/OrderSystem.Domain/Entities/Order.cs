@@ -8,7 +8,7 @@ public class Order
     public List<OrderItem> Items { get; private set; } = new();
     public decimal Total { get; private set; }
 
-    protected Order()
+    public Order()
     {
         Id = Guid.NewGuid();
         CreatedAt = DateTime.UtcNow;
