@@ -1,0 +1,15 @@
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/bin/Debug/net8.0/OrderSystem.Application.deps.json
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/bin/Debug/net8.0/OrderSystem.Application.dll
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/bin/Debug/net8.0/OrderSystem.Application.pdb
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/bin/Debug/net8.0/OrderSystem.Domain.dll
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/bin/Debug/net8.0/OrderSystem.Domain.pdb
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/obj/Debug/net8.0/OrderSystem.Application.csproj.AssemblyReference.cache
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/obj/Debug/net8.0/OrderSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/obj/Debug/net8.0/OrderSystem.Application.AssemblyInfoInputs.cache
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/obj/Debug/net8.0/OrderSystem.Application.AssemblyInfo.cs
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/obj/Debug/net8.0/OrderSystem.Application.csproj.CoreCompileInputs.cache
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/obj/Debug/net8.0/OrderSystem.Application.csproj.CopyComplete
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/obj/Debug/net8.0/OrderSystem.Application.dll
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/obj/Debug/net8.0/refint/OrderSystem.Application.dll
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/obj/Debug/net8.0/OrderSystem.Application.pdb
+/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/obj/Debug/net8.0/ref/OrderSystem.Application.dll

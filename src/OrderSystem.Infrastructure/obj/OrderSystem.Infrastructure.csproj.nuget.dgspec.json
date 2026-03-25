@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/allan/Projetos/OrderSystem/src/OrderSystem.Infrastructure/OrderSystem.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/OrderSystem.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/OrderSystem.Application.csproj",
+        "projectName": "OrderSystem.Application",
+        "projectPath": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/OrderSystem.Application.csproj",
+        "packagesPath": "/home/allan/.nuget/packages/",
+        "outputPath": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/allan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/allan/Projetos/OrderSystem/src/OrderSystem.Domain/OrderSystem.Domain.csproj": {
+                "projectPath": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Domain/OrderSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/allan/Projetos/OrderSystem/src/OrderSystem.Domain/OrderSystem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Domain/OrderSystem.Domain.csproj",
+        "projectName": "OrderSystem.Domain",
+        "projectPath": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Domain/OrderSystem.Domain.csproj",
+        "packagesPath": "/home/allan/.nuget/packages/",
+        "outputPath": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/allan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/allan/Projetos/OrderSystem/src/OrderSystem.Infrastructure/OrderSystem.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Infrastructure/OrderSystem.Infrastructure.csproj",
+        "projectName": "OrderSystem.Infrastructure",
+        "projectPath": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Infrastructure/OrderSystem.Infrastructure.csproj",
+        "packagesPath": "/home/allan/.nuget/packages/",
+        "outputPath": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/allan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/OrderSystem.Application.csproj": {
+                "projectPath": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Application/OrderSystem.Application.csproj"
+              },
+              "/home/allan/Projetos/OrderSystem/src/OrderSystem.Domain/OrderSystem.Domain.csproj": {
+                "projectPath": "/home/allan/Projetos/OrderSystem/src/OrderSystem.Domain/OrderSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
