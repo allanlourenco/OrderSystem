@@ -11,6 +11,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     ));
 builder.Services.AddScoped<IAppDbContext, AppDbContext>();
 builder.Services.AddScoped<OrderService>();
+builder.Services.AddScoped<ProductService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
